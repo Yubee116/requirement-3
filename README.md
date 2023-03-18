@@ -36,3 +36,5 @@ Good luck!
 * Don’t worry about supporting fields other than name and email address. Other fields in the vCard can be ignored.
 * Assume that contacts must be unique by email address and handle duplicates accordingly.
 * Provide feedback about the import result, whether it succeeds or fails, using [a flash message](https://guides.rubyonrails.org/action_controller_overview.html#the-flash).
+
+Added new line here
