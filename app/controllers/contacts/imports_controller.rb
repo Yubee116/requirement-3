@@ -30,6 +30,7 @@ class Contacts::ImportsController < ApplicationController
         if @contact.save
           # DO NOTHING // CONTINUE
           @success += 1
+          # STILL CONTINUE
         else
           contact_error = { "#{@contact.name}": @contact.errors }
           @errors.push(contact_error)
