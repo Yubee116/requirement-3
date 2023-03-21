@@ -6,7 +6,8 @@
 <% end %>
 <% if errors.count > 0 %>
   <div id="error_explanation" class="bg-red-50 text-red-500 px-3 py-2 font-medium rounded-lg mt-3">
-    <h2>There was a problem saving <%= pluralize(errors.count, "contact") %>:</h2>
+    <p>There was a problem saving contacts.</p>
+    <h2><%= pluralize(errors.count, "Error") %> found:</h2>
     <ul>
       <% errors.each do |error| %>
         <% error.each do |key, value| %>
